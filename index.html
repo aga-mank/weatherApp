@@ -11,11 +11,15 @@
 
     <h1>Weather App</h1>
 
-    <input type="text" placeholder="Gdansk" id="cityInput">
-    <button button onclick="searchTemperature()"> Search </button>
+    <input type="text" value="Gdansk" id="cityInput">
+    <button button onclick="getData()" id="searchButton"> Search </button>
 
     <h2 id="currentCity">City:</h2>
     <h3 id="temperature">Temperature:</h3>
+    <p id="description"></p>
+    <div id="container">
+        <img id="image"></img>
+    </div>
 
     <script src="client.js"></script>
 </body>
