@@ -57,7 +57,7 @@ async function getData() {
         temperature.style.color = 'rgb(31, 59, 99)', 5000
     }
 
-    //adding icon
+    //adding icon - to be fixed
     console.log(weatherData.current.condition.icon);
     pic.src = weatherData.current.condition.icon;
 }
